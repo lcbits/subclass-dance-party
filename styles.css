@@ -5,7 +5,15 @@ body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  background: url('http://www.bringthatbeat.com/images/equipment/lighting1.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
+
+.newBody {
+  background: url('https://lh4.googleusercontent.com/-Ndoci1krrk4/U2uiUAd0BSI/AAAAAAAANwY/e38FwljitsY/w800-h800/disco%2Bbiscuits.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
@@ -21,27 +29,29 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer {
-/*  border:10px solid white;
-  border-radius:10px;
-  position:absolute;*/
+
 }
 
 .redCircle {
-  border:10px solid red;
-  border-radius:20px;
+  background: url('http://rs1028.pbsrc.com/albums/y349/Calob_Swenson/KittensDancingDisco.gif~c200') no-repeat;
   position:absolute;
+  height: 200px;
+  width: 200px;
+  z-index: 100;
 }
 
 .blueSquare {
-  border:10px solid blue;
-  border-radius:20px;
+ background: url('http://gifdanceparty.giphy.com/dancers/banana.gif') no-repeat;
   position:absolute;
+  height: 500px;
+  width: 500px;
 }
 
 .greenTriangle {
-  border:10px solid green;
-  border-radius:20px;
+  background: url('http://www.shangralafamilyfun.com/gala-e/catmusic.gif') no-repeat;
   position:absolute;
+  height: 300px;
+  width: 300px;
 }
 
 .draggable { 
@@ -50,7 +60,9 @@ body, a:link, a:visited, a:active{
   padding: 0.5em; dd
 }
 
-.lineup {
-  float: leftdsfdsfds;dddds
-  padding-top: 1000px;ddddisplay: in;
+.greenTriangle: hover {
+border:90px solid green;
+  border-radius:90px;
+  position:absolute;
+
 }
