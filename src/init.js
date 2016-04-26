@@ -35,15 +35,8 @@ $(document).ready(function() {
   });
 
   $('.lineUpButton').on('click', function(event) {
-
-    var someFunctionName = $(this).data('some-function-name');
-
-    // get the maker function for the kind of dancer we're supposed to make
-    var someFunction = window[someFunctionName];
-    console.log(someFunction);
-
     for(var i=0;i<window.dancers.length;i++){
-      window.dancers[i].lineUp(); 
+      window.dancers[i].setPosition(500, window.dancers[i].left); 
     }
 
     });

@@ -28,26 +28,22 @@ body, a:link, a:visited, a:active{
 
 .redCircle {
   border:10px solid red;
-  border-radius:10px;
+  border-radius:20px;
   position:absolute;
 }
 
 .blueSquare {
   border:10px solid blue;
-  width: 10px;
-  height: 10px;
-  background: blue;
+  border-radius:20px;
   position:absolute;
 }
 
 .greenTriangle {
   border:10px solid green;
-  width: 10px;
-  height: 10px;
-  background: blue;
+  border-radius:20px;
   position:absolute;
 }
-ddd
+
 .draggable { 
   width: 150px; 
   height: 150px; 

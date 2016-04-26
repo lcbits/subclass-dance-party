@@ -20,15 +20,10 @@ MakeDancer.prototype.setPosition = function(top, left) {
     top: top,
     left: left
   };
+  this.positionY = top;
+  this.positionX = left;
   this.$node.css(styleSettings);
 };
-
-MakeDancer.prototype.lineUp = function() {
-  for(var i=0; i<window.dancers.length; i++){
-    this.$node.addClass('lineup');
-  }
-}
-
 
 // use jQuery to create an HTML <span> tag
   
