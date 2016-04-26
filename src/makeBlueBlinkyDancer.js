@@ -1,16 +1,16 @@
-var makeRedBlinkyDancer = function(top, left, timeBetweenSteps) {
+var makeBlueBlinkyDancer = function(top, left, timeBetweenSteps) {
 
   MakeDancer.call(this, top, left, timeBetweenSteps);
-  $('span.dancer').addClass('redCircle');
+  $('span.dancer').addClass('blueSquare');
   $('span.dancer').removeClass('dancer');
 
 };
 
-makeRedBlinkyDancer.prototype = Object.create(MakeDancer.prototype);
+makeBlueBlinkyDancer.prototype = Object.create(MakeDancer.prototype);
 
-makeRedBlinkyDancer.prototype.constructor = makeRedBlinkyDancer;
+makeBlueBlinkyDancer.prototype.constructor = makeBlueBlinkyDancer;
 
-makeRedBlinkyDancer.prototype.step = function() {
+makeBlueBlinkyDancer.prototype.step = function() {
   MakeDancer.prototype.step.call(this);
   // var oldStep = this.step;
   // 
@@ -18,5 +18,5 @@ makeRedBlinkyDancer.prototype.step = function() {
   // See http://api.jquery.com/category/effects/ for this and
   // other effects you can use on a jQuery-wrapped html tag.
   //this.$node = $('<span class="redCircle"></span>');
-  this.$node.toggle();
+  this.$node.fadeToggle(1000);
 };

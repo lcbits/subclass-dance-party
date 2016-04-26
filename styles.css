@@ -20,8 +20,41 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
-.dancer{
+.dancer {
+/*  border:10px solid white;
+  border-radius:10px;
+  position:absolute;*/
+}
+
+.redCircle {
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+
+.blueSquare {
+  border:10px solid blue;
+  width: 10px;
+  height: 10px;
+  background: blue;
+  position:absolute;
+}
+
+.greenTriangle {
+  border:10px solid green;
+  width: 10px;
+  height: 10px;
+  background: blue;
+  position:absolute;
+}
+
+.draggable { 
+  width: 150px; 
+  height: 150px; 
+  padding: 0.5em; 
+}
+
+.lineup {
+  float: left;
+  padding-top: 1000px;
 }
